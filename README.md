@@ -1,3 +1,3 @@
 # R-Vision API examples
 
-* [Примеры на языке Python](python/)
+* [Примеры на языке Python](python/README.md)
