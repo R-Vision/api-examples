@@ -10,5 +10,5 @@
 ### Инциденты:
 * [incidents_close_by_id.py](incidents_close_by_id.py) — Закрытие инцидента
 * [incidents_get_by_id.py](incidents_get_by_id.py) — Подробная информация об инциденте
-* [incidents_get_only_openned.py](incidents_get_only_openned.py) — Перечень всех инцидентов
+* [incidents_get_only_openned.py](incidents_get_only_openned.py) — Перечень всех открытых инцидентов
 * [incidents_set_new_responsible.py](incidents_set_new_responsible.py) — Обновление инцидента (на примере смены ответственного)
