@@ -25,6 +25,8 @@ $res = $client->get('/api/v1/am/devices', [
     'verify' => false
 ]);
 
+echo $res->getBody();
+
 /*
 
 // Следующая страница из десяти устройств
@@ -48,5 +50,3 @@ $all = $client->get('/api/v1/am/devices', [
 ]);
 
 */
-
-echo $res->getBody();
