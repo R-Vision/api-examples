@@ -41,8 +41,7 @@ incidentData = {
 }
 
 incident = s.put(
-    PROTOCOL + '://' + RVISION + '/api/v1/im/incidents/' +
-    str(incidentId) + '/organizations',
+    PROTOCOL + '://' + RVISION + '/api/v1/im/incidents/' + str(incidentId) + '/organizations',
     data=json.dumps(incidentData),
     verify=False
 )
